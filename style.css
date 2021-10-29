@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Zen Kurenaido', sans-serif;
+    overflow: hidden;
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: rgb(72, 255, 72);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
+}
+#opt{
+    display: flex;
+    list-style-type: none;
+}
+.nav{
+    padding-right: 60px;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(72, 255, 72);
+    padding: 7px;
+}
+.nav a:hover{
+    border: 1px solid rgb(72, 255, 72) ;
+    border-radius: 8px;
+}
+#header{
+    margin: 0px;
+    padding: 10px;
+    font-size: 35px;
+}
+#hero{
+    padding: none;
+    margin: none;
+}
+#sidebar{
+    height: 97vh;
+    margin-top: 50px;
+    background-color: rgb(9, 0, 17);
+    width: 20%;
+    position: absolute;
+}
+
+#sideopt li{
+    list-style-type: none;
+    font-size: 22px;
+    padding: 9px;
+    color: rgb(0, 255, 0);
+}
+#sideopt li:hover{
+    border: 1px solid rgb(43, 255, 0);
+    border-radius: 7px;
+}
+#sideopt li:nth-child(1){
+    padding-top: 50px;
+    font-size: 33px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 22), rgb(0, 0, 66));
+    border-radius: 7px;
+    margin-right: 40px;
+    padding-left: 8px;
+}
+
+img{
+    height: 130px;
+}
+#main{
+    width: 79.6%;
+    float: right;
+    border: 2px solid black;
+    background-color: rgb(0, 14, 14);
+    height: 97vh;
+    margin-top: 50px;
+}
+#containt{
+    background-color: rgba(0, 8, 9, 0.904);
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 90px;
+}
+#timer{
+    color: blue;
+    font-size: 70px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+#board{
+    font-size: 30px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(0, 1, 10);
+    color: rgb(0, 162, 255);
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#box{
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    height: 50px;
+    width: 420px;
+    margin-top: 30px;
+    border: none;
+}
+#reset{
+    background-color: black;
+    color: red;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+#sideopt .follow a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+#sideopt .follow:hover{
+    border-color: blue;
+    text-decoration: none;
+}
+
+
+#total{
+    height: 80%;
+    z-index: 100;
+    border-radius: 40px;
+    margin: 50px 20px;
+    border: 1px solid rgb(0, 12, 117);
+    position: fixe;
+    display: none;
+    background-color: black;
+}
+.head{
+    font-size: 80px;
+    margin: 50px;
+    color: rgb(0, 179, 189);
+}
+#exit{
+    background-color: red;
+    font-size: 50px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+#finalscore{
+    font-size: 30px;
+    margin: 60px 100px;
+    color: rgb(0, 68, 255);
+}
+#accu{
+    font-size: 30px;
+    margin: -30px 100px;
+    color: rgb(0, 54, 204);
+}
+#rig{
+    font-size: 30px;
+    margin: 60px 100px;
+    color: rgb(0, 40, 151);
+}
+
+@media screen and (max-width:780px) {
+    body{
+        overflow: hidden;
+    }
+}

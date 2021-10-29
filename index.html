@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Type Meter</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="type.png">
+</head>
+
+<body>
+    <div id="navbar">
+        <p id="header">Typing Speed Challenge</p>
+        <ul id="opt">
+            <li class="nav"><a href="http://www.kaiblaze.c1.biz/#projects">Home</a></li>
+            <li class="nav"><a href="https://github.com/kaiblaze-afk">More</a></li>
+            <li class="nav"><a href="http://www.kaiblaze.c1.biz/#contact">Contact</a></li>
+            <li class="nav"><a href="http://www.kaiblaze.c1.biz/#about">About</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="hero">
+            <div id="sidebar">
+                <ul id="sideopt">
+                    <li><img src="type.png" alt=""></li>
+                    <li>Help</li>
+                    <li>Timer</li>
+                    <li>Color</li>
+                    <li>Mode</li>
+                    <li>Reset</li>
+                    <li class="follow"><a href="https://m.facebook.com/blazekai.me">facebook</a></li>
+                    <li class="follow"><a href="https://twitter.com/Blaze8Kai">twitter</a></li>
+                    <li class="follow"><a href="https://github.com/kaiblaze-afk">github</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <div id="total">
+                    <div class="head">Typing Speed Score Card</div>
+                    <button id="exit" onclick="reset()">X</button>
+                    <div id="finalscore"></div>
+                    <!-- This is a hard code for now -->
+                    <div id="accu"></div>
+                    <div id="rig"></div>
+                </div>
+                <div id="containt">
+                    <div id="timer">60</div>
+                    <input type="text" name="board" id="board" value="Challenge your own limits" disabled size="45">
+                    <input type="text" name="box" id="box" placeholder="Press Enter to start..." autofocus><br>
+                    <button id="reset" onclick="reset()">&#8634</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
